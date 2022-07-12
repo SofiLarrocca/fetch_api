@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200;8..144,400;8..144,500&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- ICON WHEATER BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+    <!-- TITULO -->
+    <title>CoffeStore</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav">
+             <img class='logo' src="logo.svg" alt="">
+        </div>
+    </nav>
+
+    <div class="contenedor">
+        <div>
+            <h1>BIENVENIDOS</h1>
+        </div>
+    </div>
+
+    <div id="contenedor-clima">
+        <div id="caja"> 
+            <h2 id="temperatura-valor"></h2>
+            <h2 id="temperatura-descripcion"></h2>
+        </div>
+        <div id="caja">
+            <h2><abbr id="ubicacion" title="Cambiar ubicación"></abbr></h2>
+            <img id='icon' src="" alt="">
+        </div>
+        <div id="caja">
+            <h3>Humedad</h3>
+            <h2 id="humedad"></h2>
+        </div>
+    </div>   
+
+    <script src="app.js"></script>
+</body>
+</html>
